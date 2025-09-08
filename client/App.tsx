@@ -11,6 +11,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import { Button } from "@/components/ui/button";
+import { Analytics } from "@vercel/analytics/next";
 
 const queryClient = new QueryClient();
 
