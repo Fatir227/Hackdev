@@ -163,7 +163,7 @@ function SiteFooter() {
         {/* Bottom copyright */}
         <div className="mt-4 pt-4 border-t border-primary/5">
           <div className="flex flex-col md:flex-row items-center justify-between gap-2 text-xs text-muted-foreground">
-            <p>© {new Date().getFullYear()} HackDev. Built with modern web technologies.</p>
+            <p>© {new Date().getFullYear()} HackDev. </p>
             <div className="flex items-center gap-2">
               <div className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"></div>
               <span>Always innovating</span>
